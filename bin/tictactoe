@@ -4,7 +4,9 @@ require_relative '../config/environment'
 
 require_all 'lib'
 
-puts "Welcome to Tic Tac Toe!"
+#puts "Welcome to Tic Tac Toe!"
 game = Game.new
 game.play
+TicTacToeCLI.new.call
+
 
